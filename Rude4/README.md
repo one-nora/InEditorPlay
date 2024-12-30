@@ -3,7 +3,7 @@
 	1. Go to Window->Package manager
 	2. Search for "burst" (make sure you are on "Unity registry") and install the 1.6.6 version
 	3. Restart the project
-2. Download and import the package
+2. Download and import the unity package
 3. Add a FirstRoom from the "ULTRAKILL Prefabs\Wrapped Prefabs" folder and NOT the "RudeEditorPrefabs" folder, otherwise the player wont spawn
 4. Copy your "Saves" and "Preferences" folder from your ultrakill install into the root folder of the project (NOT inside Assets)
 5. Click play and wait, it will take long to load

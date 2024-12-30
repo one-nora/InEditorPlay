@@ -1,5 +1,5 @@
 # Installation
-1. Download the package and import the package
+1. Download the package and import the unity package
 	1. If any errors show up, restart the project
 2. Add a FirstRoom from the "ULTRAKILL Assets" folder and NOT the "RudeEditorPrefabs" folder, otherwise the player wont spawn
 3. Copy your "Saves" and "Preferences" folder from your ultrakill install into the root folder of the project (NOT inside Assets)
