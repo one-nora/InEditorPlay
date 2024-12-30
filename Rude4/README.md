@@ -8,12 +8,12 @@
 4. Copy your "Saves" and "Preferences" folder from your ultrakill install into the root folder of the project (NOT inside Assets)
 5. Click play and wait, it will take long to load
 
-#Tips
+# Tips
 * Set the FirstRoom tag to EditorOnly so it doesnt export
 * To set the difficulty before playing (or while playing, both work), you can go to Rude->Play mode->Set player preferences, and click on the difficulty you want
 * Steam integration and discord integration are added with this package, they are disabled by default and can be enabled via Rude->Play mode->Set player preferences
 
-#Known issues
+# Known issues
 * Trams continue even after the player gets off (this is intentional otherwise the tram simulation doesnt work)
 * Blood splatters dont appear on surfaces
 * Outlines dont work
