@@ -13,8 +13,10 @@ It is likely that unity will crash after exporting any bundle for the first time
 * To set the difficulty before playing (or while playing, both work), you can go to Rude->Play mode->Set player preferences, and click on the difficulty you want
 * This works with steam, although steam integration is disabled by default and can be enabled via Rude->Play mode->Set player preferences
 
-# Known issues
+# Limitations
 * Custom scripts that use harmony patching dont work
+
+# Known issues
 * Blood splatters dont appear on surfaces
 * Outlines dont work
 * UI Elements look black
