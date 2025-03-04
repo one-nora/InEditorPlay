@@ -1,6 +1,5 @@
 # This was tested on patch 16c, make sure you are on that version for this to work
-If you have installed in editor shader preview, do this
-	1. Delete the PlayModeShaderPreview folder located inside the "Assets/Editor" folder
+If you have installed in editor shader preview, delete the PlayModeShaderPreview folder located inside the "Assets/Editor" folder
 
 
 # Installation
