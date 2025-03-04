@@ -1,4 +1,8 @@
 # This was tested on patch 16c, make sure you are on that version for this to work
+If you have installed in editor shader preview, do this
+	1. Delete the PlayModeShaderPreview folder located inside the "Assets/Editor" folder
+
+
 # Installation
 1. Download the package and import the unity package
 	1. To download, click on the unity package "InEditorPlay"
