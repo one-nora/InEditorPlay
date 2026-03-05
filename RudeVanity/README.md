@@ -5,12 +5,13 @@
 	2. Then look for the download icon on the left, it should say "Download raw file"
 	3. Click it to download the package
 	4. If any errors show up after importing, restart the project
-2. Add a FirstRoom from the "ULTRAKILL Assets" folder and NOT the "RudeEditorPrefabs" folder, otherwise the player wont spawn
-3. Copy your "Saves" and "Preferences" folder from your ultrakill install into the root folder of the project (NOT inside Assets)
-4. Go to RUDE->Play mode->Edit config
+2. Delete the "Scripts/NewBlood.EngineInterop" folder
+3. Add a FirstRoom from the "ULTRAKILL Assets" folder and NOT the "RudeEditorPrefabs" folder, otherwise the player wont spawn
+4. Copy your "Saves" and "Preferences" folder from your ultrakill install into the root folder of the project (NOT inside Assets)
+5. Go to RUDE->Play mode->Edit config
 	1. Click on "Set ULTRAKILL root path"
 	2. A window will popup, navigate to your ULTRAKILL install and select the "ULTRAKILL" folder
-5. Click play and wait, it will take long to load
+6. Click play and wait, it will take long to load
 
 # Disclaimers
 * Unity may get stuck in big scenes during play mode
