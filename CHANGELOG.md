@@ -1,3 +1,8 @@
+# Update 1.2
+* Updated to new game version (patch 17b2)
+* Blood and oil now work in the editor
+* Portals work in the editor
+
 # Update 1.1
 * Updated to new game version (patch 16c)
 * Added shader loader for play mode

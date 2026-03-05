@@ -1,7 +1,4 @@
-# This was tested on patch 16c, make sure you are on that version for this to work 
-If you have installed the in editor shader preview, delete the PlayModeShaderPreview folder
-
-
+# This was tested on patch 17b2, make sure you are on that version for this to work
 # Installation
 1. Download the package and import the unity package
 	1. To download, click on the unity package "InEditorPlay"
@@ -27,10 +24,9 @@ If you have installed the in editor shader preview, delete the PlayModeShaderPre
 
 # Limitations
 * Some settings in the menu may not work
-* Custom scripts that use harmony patching dont work
+* Custom scripts that use harmony patching work but its a bit messy so theres no guide yet
 
 # Known issues
-* Blood splatters dont appear on surfaces
 * Outlines dont work (they do, press the quick shader key)
 * UI Elements look black
 * Oil on enemies looks weird (press the quick shader key)

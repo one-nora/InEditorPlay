@@ -1,0 +1,39 @@
+Future reference for myself
+-Fixed plog/plog/Models/Log.cs
+-Fixed Assembly-CSharp/System/Collections/Generic/PriorityQueue.cs (1 line fix)
+-Fixed Assembly-CSharp/BloodsplatterManager.cs (half2 to Vector2 conversion)
+-Removed _003CPrivateImplementationDetails_003E from
+ -Assembly-CSharpy/GunControl.cs
+ -Assembly-CSharp/NewMovement.cs
+ -Assembly-CSharp/ZombieProjectile.cs
+-Fixed Assembly-CSharp/Playlist.cs GetHashCode
+-Added InEditorPlay folder inside RudeScripts
+-Changed shaders fields from Assembly-CSharp/StainVoxelManager.cs, Assembly-CSharp/BloodsplatterManager.cs and Assembly-CSharp/ULTRAKILL/Portal/PortalRenderV2.cs (blood, oil and portals now work)
+-Added options asset for the pause menu options to work (located at ULTRAKILL Assets/Data/Settings/)
+-Commented out outline commandbuffer from Assembly-CSharp/PostProcessV2_Handler.cs
+-Fixed Assembly-CSharp/SceneHelper.cs not reloading due to using Addressables.LoadSceneAsync
+-Added option to remove Steam integration on Assembly-CSharp/SteamController.cs
+-Fixed Assembly-CSharp/LevelStats.cs not showing the correct tab panel header text
+-Fixed Assembly-CSharp/LevelStatsEnabler.cs not allowing the tab panel to be open
+-Fixed Assembly-CSharp/PostProcessV2_Handler.cs not working when going into clash mode (at ChangeCamera function, 1 line fix)
+-Fixed outline shader and palette compute shader (Assembly-CSharp/PostProcessV2_Handler.cs)
+-Fixed Assembly-CSharp/ULTRAKILL/Portal/PortalParticles.cs not compiling
+
+-Added MethodOf file in InEditorPlay folder
+Fix burst calls for
+ -Assembly-CSharp/BeamHitInterpolation/BeamHitInterpolator.cs
+ -Assembly-CSharp/ULTRAKILL/Enemy/TargetTracker.cs
+ -Assembly-CSharp/ULTRAKILL/Portal/Geometry/PlaneShapeExtensions.cs
+ -Assembly-CSharp/ULTRAKILL/Portal/Native/NativePortalExtensions.cs
+ -Assembly-CSharp/ULTRAKILL/Portal/Native/NativePortalScene.cs
+ -Assembly-CSharp/ULTRAKILL/Portal/PortalScene.cs
+ -Assembly-CSharp/BloodsplatterManager.cs
+ -Assembly-CSharp/FrustumClipper.cs
+ -Assembly-CSharp/VirtualAudioFilter.cs
+
+TODO:
+-Clean up monosingletons to avoid domain reloading
+-Figure out if the blood not working in some areas is my fault
+-Sort Loaded shaders by name
+-Add back the tram gizmos
+-Use reflection for shaders replacing + cache it
