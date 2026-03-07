@@ -1,4 +1,21 @@
-Future reference for myself
+Changelog for recreating the package
+Decompile
+ -Assembly-CSharp.dll
+ -Naelstrof.JigglePhysics.dll
+ -NewBlood.DomainReloading.dll
+ -NewBlood.LegacyInput.dll
+ -pcon.core.dll
+ -plog.dll
+ -plog.unity.dll
+with ILSpy (or ICSharpCode.Decompiler) on language version 9.0 (C# 9.0)
+
+Delete any mentions of
+ -AssemblyInfo.cs
+ -.csproj
+ -UnitySourceGeneratedAssemblyMonoScriptTypes_v1.cs
+ --PrivateImplementationDetails-.cs
+ -__JobReflectionRegistrationOutput
+
 -Fixed plog/plog/Models/Log.cs
 -Fixed Assembly-CSharp/System/Collections/Generic/PriorityQueue.cs (1 line fix)
 -Fixed Assembly-CSharp/BloodsplatterManager.cs (half2 to Vector2 conversion)
@@ -10,7 +27,6 @@ Future reference for myself
 -Added InEditorPlay folder inside RudeScripts
 -Changed shaders fields from Assembly-CSharp/StainVoxelManager.cs, Assembly-CSharp/BloodsplatterManager.cs and Assembly-CSharp/ULTRAKILL/Portal/PortalRenderV2.cs (blood, oil and portals now work)
 -Added options asset for the pause menu options to work (located at ULTRAKILL Assets/Data/Settings/)
--Commented out outline commandbuffer from Assembly-CSharp/PostProcessV2_Handler.cs
 -Fixed Assembly-CSharp/SceneHelper.cs not reloading due to using Addressables.LoadSceneAsync
 -Added option to remove Steam integration on Assembly-CSharp/SteamController.cs
 -Fixed Assembly-CSharp/LevelStats.cs not showing the correct tab panel header text
@@ -18,6 +34,12 @@ Future reference for myself
 -Fixed Assembly-CSharp/PostProcessV2_Handler.cs not working when going into clash mode (at ChangeCamera function, 1 line fix)
 -Fixed outline shader and palette compute shader (Assembly-CSharp/PostProcessV2_Handler.cs)
 -Fixed Assembly-CSharp/ULTRAKILL/Portal/PortalParticles.cs not compiling
+
+Added DLLs
+ -Bcl.CollectionsMarshal.dll (directly from ULTRAKILL_Data/Managed)
+ -PrivateAPIEngineBridge.Core.dll (directly from ULTRAKILL_Data/Managed)
+ -Unity.InternalAPIEngineBridge.001.dll (directly from ULTRAKILL_Data/Managed)
+ -NewBlood.EngineInterop.dll (DLL shared by NewBlood developer (Zombie))
 
 -Added MethodOf file in InEditorPlay folder
 Fix burst calls for
@@ -33,7 +55,6 @@ Fix burst calls for
 
 TODO:
 -Clean up monosingletons to avoid domain reloading
--Figure out if the blood not working in some areas is my fault
 -Sort Loaded shaders by name
 -Add back the tram gizmos
--Use reflection for shaders replacing + cache it
+-Use System.Reflection for shader replacing + cache it on disk
